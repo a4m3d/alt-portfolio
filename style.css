@@ -115,7 +115,7 @@ a {
     font-size:6rem;
     color:#e63e3b;
 }
-@media (max-width:912px) and (orientation:portrait) {
+@media (max-width:1550px) {
     .nav .h3 {
         font-size:1.25rem;
         padding:.75rem;
@@ -189,7 +189,7 @@ a {
     }
 
 }
-@media (max-width:480px) and (orientation:portrait) {
+@media (max-width:670px)  {
     .nav .h3 {
         display:none;
     }
