@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    background-color: #09090B;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span {
+    color:grey;
+}
+
+body {
+    color:white;
+}
+
+/* Main Area */
+.nav {
+    position: fixed;
+    display: flex;
+    left:0;
+    top:0;
+    padding: 1rem 3%;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.nav .h3 {
+    padding-right:1px;
+    padding-top: 1rem;
+    font-size: 1.75rem;
+}
+.nav .navbar {
+    padding:1.4rem;
+    padding-left:30%;
+    font-size:1.55rem;
+    text-decoration:none;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem 0rem;
+    padding-left: 12%;
+    transition:0.3s;
+}
+
+.nav .navbar :hover {
+    color:grey;
+}
+
+.main {
+    position:fixed;
+    display: flex;
+    top:14rem;
+    padding:0rem 10rem;
+}
+
+.main .h1 {
+    font-size: 6rem;
+    padding:0 0;
+}
+
+.main .know {
+    position:fixed;
+    font-size:1.5rem;
+    top:37rem;
+    left:72rem;
+}
+
+.main .footer {
+    position: fixed;
+    display: flex;
+    left:0;
+    bottom:0;
+    padding: 1rem 3%;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.main .footer .h4 {
+    padding-right:1rem;
+    padding-top: 1rem;
+    font-size: 1.75rem;
+}
+.main .footer .socials {
+    padding:1rem;
+    padding-left:23%;
+    font-size:1.55rem;
+    text-decoration:none;
+}
+
+.main .socials :hover {
+    color:grey;
+}
+
+::selection {
+    background: grey;
+}
+
+.errorpage {
+    position:fixed;
+    display: flex;
+    top:17rem;
+    padding:0rem 7rem;
+}
+
+.error {
+    font-size: 6rem;
+    padding:0 0;
+}
+
+.min-font {
+    font-size:6rem;
+    color:#e63e3b;
+}
+@media (max-width:912px) and (orientation:portrait) {
+    .nav .h3 {
+        font-size:1.25rem;
+        padding:.75rem;
+    }
+    .nav .navbar {
+        padding:1.2rem;
+        padding-left:0%;
+        font-size:1rem;
+        text-decoration:none;
+    }
+    .main {
+        position:fixed;
+        top:13rem;
+        padding:0rem 2rem;
+    }
+    
+    .main .h1 {
+        font-size: 3rem;
+        padding:0 0;
+    }
+    
+    .main .know {
+        position:fixed;
+        font-size:1.5rem;
+        top:30rem;
+        left:2rem;
+    }
+    
+    .main .footer {
+        position: fixed;
+        right:0;
+        bottom:0;
+        padding: 2rem;
+        padding-left:2%;
+        font-size:2px;
+        transition:0.3s;
+        
+    }
+    .main .footer .h4 {
+        font-size:1.25rem;
+        padding:.75rem;
+
+    }
+    .main .footer .socials {
+        padding:10px;
+        padding-right:0px;
+        font-size:1.25rem;
+        text-decoration:none;
+        
+    }
+
+    .main .footer .socials a{
+        padding: .25rem 2%;
+    }
+
+    .errorpage {
+        position:fixed;
+        display: flex;
+        top:17rem;
+        padding:0rem 7rem;
+    }
+    
+    .error {
+        font-size: 2rem;
+        padding:0 0;
+    }
+    
+    .min-font {
+        font-size:2rem;
+        color:#e63e3b;
+    }
+
+}
+@media (max-width:480px) and (orientation:portrait) {
+    .nav .h3 {
+        display:none;
+    }
+    .nav .navbar {
+        padding:1.2rem;
+        padding-left:0%;
+        font-size:1rem;
+        text-decoration:none;
+    }
+    .main {
+        position:fixed;
+        top:9rem;
+        padding:0rem 2rem;
+    }
+    
+    .main .h1 {
+        font-size: 2rem;
+        padding:0 0;
+    }
+    
+    .main .know {
+        position:fixed;
+        font-size:1.5rem;
+        top:20rem;
+        left:5rem;
+    }
+    
+    .main .footer {
+        position: fixed;
+        right:0;
+        bottom:0;
+        padding: 2rem;
+        padding-left:5%;
+        font-size:2px;
+        transition:0.3s;
+        
+    }
+    .main .footer .h4 {
+        font-size:1.25rem;
+        padding:.75rem;
+
+    }
+    .main .footer .socials {
+        padding:10px;
+        padding-right:0px;
+        font-size:1.25rem;
+        text-decoration:none;
+        
+    }
+
+    .main .footer .socials a{
+        padding: .25rem 15%;
+    }
+    
+    .errorpage {
+        position:fixed;
+        top:17rem;
+        padding:0rem 2rem;
+    }
+    
+    .error {
+        font-size: 2rem;
+        padding:0 0;
+    }
+    
+    .min-font {
+        font-size:2rem;
+        color:#e63e3b;
+    }
+
+}
